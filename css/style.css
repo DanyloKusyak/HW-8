@@ -1,0 +1,55 @@
+h3:first-child{
+    color: pink;
+}
+#greycol {
+    color: gray;
+}
+div div p{
+    color: red;
+}
+p:nth-child(2n+3){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+li:nth-child(1){
+    color: blue;
+}
+li:nth-child(2){
+    color: green;
+}
+li:nth-child(3){
+    color: red;
+}
+li:nth-child(4){
+    color: blueviolet;
+}
+li:nth-of-type(2n+5){
+    color: gray;
+}
+li:nth-child(6){
+    color: gold;
+}
+li:nth-child(7){
+    color: lightblue;
+}
+li:nth-last-child(1){
+    color: cyan;
+}
+a:hover{
+background-color: gray;
+}
+a:active{
+    background-color: red;
+} 
+a:focus{
+    background-color: green;
+    font-weight: 600;
+}
+a:visited{
+    color: chartreuse;
+}
+a:link{
+    color: brown;
+}
