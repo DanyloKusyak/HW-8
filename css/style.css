@@ -13,9 +13,9 @@ p:nth-child(2n+3){
 .yellow{
     color: yellow;
 }
-li:nth-child(1){
+/* li:nth-child(1){
     color: blue;
-}
+} */
 li:nth-child(2){
     color: green;
 }
@@ -34,8 +34,17 @@ li:nth-child(6){
 li:nth-child(7){
     color: lightblue;
 }
-li:nth-last-child(1){
+li:last-child{
     color: cyan;
+}
+li:first-child{
+color: blue;
+}
+h1:empty{
+    font-size: 150px;
+}
+footer span:only-child {
+    color: darkorchid;
 }
 a:hover{
 background-color: gray;
